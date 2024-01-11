@@ -1,0 +1,24 @@
+@import "sass/Helpers/Variables_Purple";
+@import "sass/Helpers/Mixins";
+@import "sass/Helpers/Extend";
+@import "sass/Helpers/Functions";
+
+@import "sass/Layout/Cover";
+@import "sass/Layout/Fonts";
+@import "sass/Layout/Grid";
+@import "sass/Layout/Scroll";
+
+
+@import "sass/Components/button";
+@import "sass/Layout/UpArrow";
+
+@import "sass/Layout/Style4AllElement";
+
+// @import "Components";
+
+@import "sass/Layout/Nav";
+@import "sass/Pages/Home";
+@import "sass/Layout/Footer";
+
+//sass --watch A:\Landing_Pages\Landing_Page_Developer\sass:A:\Landing_Pages\Landing_Page_Developer\css
+//sass --watch A:\Landing_Pages\Landing_Page_Developer\sass:A:\Landing_Pages\Landing_Page_Developer\css --style compressed

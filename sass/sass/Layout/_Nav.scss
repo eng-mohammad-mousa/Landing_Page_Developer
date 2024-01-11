@@ -1,0 +1,41 @@
+/* ******************* */
+/*         Nav         */
+/* ******************* */
+nav{
+    background-color: $mc;
+    *{color:white !important;}
+
+
+    .navbar-brand{
+        font-size: 26px !important;
+        
+        &:hover svg{
+            animation-name: hvr-buzz-out;
+            animation-duration: 0.75s;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+        }
+    }
+
+    .navbar-toggler {
+        border-color:transparent !important;
+        &:focus{
+            box-shadow: initial !important;
+        }
+    }
+    .navbar-nav{
+        text-align: center;
+        // li{ overflow:hidden;}
+        a{
+            transition: all .2s linear;
+            margin:0px 5px;
+            @extend .hvr-pop; 
+			@extend .hvr-underline-from-center;
+            &:hover{
+                transform: scale(1.05);
+                font-weight: bold;
+            }
+        }
+
+    }
+}

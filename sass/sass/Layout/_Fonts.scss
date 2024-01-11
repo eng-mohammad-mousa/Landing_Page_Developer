@@ -1,0 +1,25 @@
+/* ******************* */
+/*        Font         */
+/* ******************* */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;300;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300;400;500;600;700&display=swap');
+
+* {
+	font-family: 'Exo 2', sans-serif;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	
+}
+h1 , h2 , h3 , h4 , h5 , h6, nav * , button , .taplin{
+	font-family: 'Lemonada', cursive;
+	font-weight:bold;
+	text-transform: capitalize !important;
+}
+h2{
+	text-shadow: .3px .3px 1.3px $mc;
+}
+p{
+	word-spacing: 1.5px;
+	text-transform:  initial !important;
+}

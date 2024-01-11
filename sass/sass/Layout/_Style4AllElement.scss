@@ -1,0 +1,36 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    // transition: .3s all linear;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+
+    .par-serv {
+        width: 100%;
+
+        @media screen and (min-width: 768px) {
+            width: 80%;
+            margin: 10px auto;
+        }
+    }
+}
+
+#body>section {
+    padding-top: 78px;
+}
+
+::selection {
+    color: white;
+    background-color: $mc;
+}

@@ -1,0 +1,39 @@
+%button{
+    padding:7.5px 15px;
+    border-radius: 5px;
+    position:relative;
+    overflow:hidden;
+    color:white;
+    z-index: 1;
+    border:none;
+    font-weight:bold;
+    background-color: $mc;
+    transition: .15s all linear  ;
+
+
+    // &::before{
+    //     content:"";
+    //     width:100%;
+    //     height:100%;
+    //     background-color:white;
+        
+    //     position: absolute;
+    //     top: 0;left:0;
+
+    //     transition:all .2s linear;
+
+    //     transform: translateX(-100%);
+    //     z-index: -1;
+    // }
+    // &:hover{color:black;font-weight:bold;}
+    &:focus{border:none; outline:none;}
+    &:hover::before{
+        // transform: translateX(00%);
+    }
+
+    &:hover{
+        background-color:rgba($mc , 0.85);
+    }
+
+   
+}
