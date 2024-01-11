@@ -10,6 +10,8 @@ Experience the Landing Page live by visiting the following link: [Live Demo](htt
 
 ## Features
 
+- **Distinctive Color Themes:** Our website offers 5 unique color themes that are carefully selected to create a visually appealing and captivating experience. Each theme reflects a different mood and style, allowing users to choose their preferred aesthetic.
+
 - **Responsive Design:** The website is fully responsive and compatible with all screen sizes and devices. Whether you're accessing it from a desktop, laptop, tablet, or mobile phone, the website will adapt and provide an optimal viewing experience.
 
 - **Animations and Motion Effects:** Our website incorporates a wide range of animations and motion effects to create an engaging and interactive user experience. From subtle transitions to eye-catching visuals, these effects add an extra layer of dynamism to the website.
